@@ -4,9 +4,7 @@
   "workspaces": [
     "apps/*",
     "packages/*",
-    "contracts/*",
-    "smart-contract-unit-tests",
-    "web3-integration-tests"
+    "contracts/crowdfunding-contract"
   ],
   "scripts": {
     "test": "yarn workspaces run test",

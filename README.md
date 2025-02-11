@@ -78,3 +78,12 @@ yarn workspace <project-name> <command>
 - Solidity
 - Web3 APIs (Etherscan, The Graph, OpenSea)
 - Testing frameworks
+
+
+TODO:
+
+Fix compilation for:
+    "contracts/*",
+    "smart-contract-unit-tests",
+    "web3-integration-tests"
+

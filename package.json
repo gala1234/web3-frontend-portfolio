@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "workspaces": [
-    "apps/*",
     "packages/*",
-    "contracts/crowdfunding-contract"
+    "contracts/crowdfunding-contract",
+    "apps/*"
   ],
   "scripts": {
     "test": "yarn workspaces run test",

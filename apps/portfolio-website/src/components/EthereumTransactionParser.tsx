@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { parseTransaction } from '@web3-frontend-portfolio/eth-transaction-parser';
+import { parseTransaction } from 'eth-transaction-parser';
 
 interface ParsedTransaction {
   from: string;

@@ -7,7 +7,6 @@ A comprehensive monorepo containing various Web3 frontend projects and smart con
 - **Portfolio Website**: A React-based personal portfolio website
 - **Ethereum Transaction Parser**: Parse and format raw Ethereum transaction data
 - **Ethereum Address Validator**: Validate and format Ethereum addresses
-- **Oracle Interaction**: UI for interacting with blockchain oracles
 - **On-Chain Data Dashboard**: Dashboard displaying Ethereum blockchain metrics
 - **NFT Watchlist**: Track and monitor NFT collections
 - **Off-Chain Message Signer**: Sign and verify messages with Ethereum wallets

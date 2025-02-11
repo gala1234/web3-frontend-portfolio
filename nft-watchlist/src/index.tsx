@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
-import { OpenSeaSDK } from '@opensea/sdk';
+import { OpenSeaSDK } from "opensea-js";
 import { ReservoirSDK } from '@reservoir0x/sdk';
 
 const App = () => {

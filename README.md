@@ -22,20 +22,45 @@ A comprehensive monorepo containing various Web3 frontend projects and smart con
 
 ## Setup
 
-1. Install dependencies:
-   ```bash
-   yarn install
-   ```
+This project requires Node.js version 20 or higher. It is highly recommended to use Node Version Manager (nvm) to manage Node.js versions.
 
-2. Build all projects:
-   ```bash
-   yarn build
-   ```
+1. Install nvm (if not already installed):
+   * macOS/Linux:
+       ```bash
+       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+       ```
+       or
+       ```bash
+       wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+       ```
+   * Windows: Follow the instructions at [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
 
-3. Run tests:
-   ```bash
-   yarn test
-   ```
+2. Use nvm to install Node.js 20:
+    ```bash
+    nvm install 20
+    ```
+
+3. Use nvm to select Node.js 20:
+    ```bash
+    nvm use 20
+    ```
+
+    Note: The `.nvmrc` file in the root of this repository automatically specifies the required Node.js version when using `nvm use`.
+
+4. Install dependencies:
+    ```bash
+    yarn install
+    ```
+
+5. Build all projects:
+    ```bash
+    yarn build
+    ```
+
+6. Run tests:
+    ```bash
+    yarn test
+    ```
 
 ## Development
 

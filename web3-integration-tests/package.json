@@ -1,0 +1,19 @@
+{
+  "name": "web3-integration-tests",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4",
+    "viem": "^1.0.0",
+    "wagmi": "^1.0.0",
+    "@playwright/test": "^1.35.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "vitest": "^0.31.4"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:e2e": "playwright test"
+  }
+}

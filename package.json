@@ -1,0 +1,29 @@
+{
+  "name": "web3-frontend-portfolio",
+  "private": true,
+  "workspaces": [
+    "portfolio",
+    "eth-transaction-parser",
+    "eth-address-validator",
+    "oracle-interaction",
+    "onchain-data-dashboard",
+    "nft-watchlist",
+    "offchain-message-signer",
+    "staking-contract-interface",
+    "event-monitor",
+    "ens-domain-marketplace",
+    "simple-voting-contract",
+    "crowdfunding-contract",
+    "lottery-contract",
+    "smart-contract-unit-tests",
+    "web3-integration-tests"
+  ],
+  "scripts": {
+    "test": "yarn workspaces run test",
+    "build": "yarn workspaces run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "@types/node": "^20.2.5"
+  }
+}

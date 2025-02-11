@@ -1,0 +1,16 @@
+{
+  "name": "smart-contract-unit-tests",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.0",
+    "hardhat": "^2.15.0",
+    "typescript": "^5.0.4",
+    "chai": "^4.3.7",
+    "@types/chai": "^4.3.5"
+  },
+  "scripts": {
+    "test": "hardhat test"
+  }
+}

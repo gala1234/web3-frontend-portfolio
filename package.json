@@ -1,6 +1,7 @@
 {
   "name": "web3-frontend-portfolio",
   "private": true,
+  "type": "module",
   "workspaces": [
     "apps/*",
     "packages/*",

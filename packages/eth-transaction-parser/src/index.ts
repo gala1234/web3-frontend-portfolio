@@ -1,5 +1,5 @@
 // packages/ethereum-transaction-parser/src/index.ts
-import { ethers } from 'ethers';
+import { ethers } from "ethers";
 
 export interface ParsedTransaction {
     from: string | null | undefined;
@@ -14,7 +14,7 @@ export interface ParsedTransaction {
 export async function parseTransaction(transactionData: string): Promise<ParsedTransaction> {
     try {
       //Assuming transactionData is a raw transaction string
-      const transaction = ethers.utils.parseTransaction(transactionData);
+      const transaction = ethers.Transaction.from(transactionData);
 
         return {
             from: transaction.from,

@@ -1,4 +1,4 @@
-# Web3 Frontend Portfolio
+# Web3 Trials
 
 A comprehensive monorepo containing various Web3 frontend projects and smart contracts. This repository showcases different aspects of Web3 development, from basic Ethereum address validation to complex smart contract interactions.
 
